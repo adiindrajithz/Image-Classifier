@@ -1,0 +1,5 @@
+opendatasets- 0.1.22
+pytorch- 2.10.0+cu128
+numpy- 2.0.2
+
+
