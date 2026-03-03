@@ -8,11 +8,10 @@ The model classifies animal images into different categories.
 
 <h2>Technologies Used</h2>
 
-<ul><li>Python</li>
-    <li>PyTorch</li>
-    <li>NumPy</li>
-    <li>Pandas</li>
-    <li>Matplotlib</li></ul>
+<ul><li>PyTorch 2.10.0</li>
+    <li>NumPy 2.0.2</li>
+    <li>Matplotlib 1.3.0</li>
+    <li>scikit-learn 1.6.1</li></ul>
 
 <h2>Dataset Structure</h2>
    train/<br>
