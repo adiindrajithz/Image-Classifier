@@ -56,8 +56,8 @@ Source: <a>https://www.kaggle.com/datasets/miadul/animal-image-classification-5-
 
 <h4>Evaluation</h4>
 <ul><li>Accuracy</li>
-    <li>Precision</li>
     <li>Recall</li>
+    <li>F1 Score</li>
     <li>Confusion Matrix</li></ul>
 
 
