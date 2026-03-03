@@ -1,8 +1,10 @@
 <h1>Image Classifier using CNN & Transfer Learning</h1>
+Deep learning-based image classification project using Convolutional Neural Networks (CNN) and Transfer Learning with pre-trained models.
 
-This project builds an Image Classification model using:<br>
+<br>This project builds an Image Classification model using:
 <ul><li>Convolutional Neural Network (CNN)</li>
-    <li>Transfer Learning with a pretrained model</li></ul>
+    <li>Transfer Learning with a pretrained model</li>
+    <li>Model evaluation and performance comparison</li></ul>
 
 The model classifies animal images into 5 different species.
 
@@ -20,7 +22,7 @@ The model classifies animal images into 5 different species.
     ├── val/
     └── test/
 
-<br>Each folder contains 5 subfolders (one for each class).
+Each folder contains 5 subfolders (one for each class).
 
     ├── cat/
     ├── cow/
@@ -28,11 +30,35 @@ The model classifies animal images into 5 different species.
     ├── deer/
     └── dog/
 
-<h2>Features</h2>
+Source: <a>https://www.kaggle.com/datasets/miadul/animal-image-classification-5-species</a>
 
-<ul><li>Custom CNN model</li>
-    <li>Pretrained model (Transfer Learning)</li>
-    <li>Accuracy and loss evaluation</li>
+<h2>Models Used</h2>
+
+<h4>Custom CNN</h4>
+<ul><li>Convolution layers</li>
+    <li>MaxPooling</li>
+    <li>Dropout</li>
+    <li>Fully connected layers</li></ul>
+
+<h4>Transfer Learning Model</h4>
+<ul><li>ResNet50</li></ul>
+
+<h2>Project Workflow</h2>
+
+<h4>Data preprocessing</h4>
+<ul><li>Image resizing</li>
+    <li>Normalization</li>
+    <li>Data augmentation</li></ul>
+
+<h4>Model training</h4>
+<ul><li>CNN from scratch</li>
+    <li>Transfer learning (freeze layers)</li></ul>
+
+<h4>Evaluation</h4>
+<ul><li>Accuracy</li>
+    <li>Precision</li>
+    <li>Recall</li>
+    <li>Confusion Matrix</li></ul>
 
 
 
