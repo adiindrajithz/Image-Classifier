@@ -1,5 +1,5 @@
 <h1>Image Classifier using CNN & Transfer Learning</h1>
-Deep learning-based image classification project using Convolutional Neural Networks (CNN) and Transfer Learning with pre-trained models.
+Deep learning-based image classification project using a Convolutional Neural Network (CNN) and Transfer Learning with a pre-trained model.
 
 <br>This project builds an Image Classification model using:
 <ul><li>Convolutional Neural Network (CNN)</li>
