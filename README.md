@@ -4,7 +4,7 @@ This project builds an Image Classification model using:<br>
 <ul><li>Convolutional Neural Network (CNN)</li>
     <li>Transfer Learning with a pretrained model</li></ul>
 
-The model classifies animal images into different categories.
+The model classifies animal images into 5 different species.
 
 <h2>Technologies Used</h2>
 
@@ -14,16 +14,28 @@ The model classifies animal images into different categories.
     <li>scikit-learn 1.6.1</li></ul>
 
 <h2>Dataset Structure</h2>
-   train/<br>
-   test/<br>
-   validation/<br>
-<br>Each folder contains subfolders for each class with corresponding images.
+
+    dataset/
+    ├── train/
+    ├── val/
+    └── test/
+
+<br>Each folder contains 5 subfolders (one for each class).
+
+    ├── cat/
+    ├── cow/
+    ├── lion/
+    ├── deer/
+    └── dog/
 
 <h2>Features</h2>
 
 <ul><li>Custom CNN model</li>
     <li>Pretrained model (Transfer Learning)</li>
     <li>Accuracy and loss evaluation</li>
+
+
+
 
 
 
